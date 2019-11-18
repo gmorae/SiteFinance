@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/banner.jpg');
+    height: 90vh;
+    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.text-principal h1{
+    font-size: 7em;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3rem;
+}
+
+.text-principal h2{
+    font-size: 7em;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1rem;
+}
+
+.text-principal p{
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1em;
+}
+
+.card{
+    border: none;
+    background: linear-gradient(0.25turn, #F4BF07, #F88943);
+    border-radius: 0 !important;
+    width: 100%;
+}
+
+.btn-white{
+    background: white;
+}
+
+.card h4{
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
